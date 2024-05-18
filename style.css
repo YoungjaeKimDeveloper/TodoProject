@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: lightblue;
+  max-width: 400px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+.container .title {
+  padding: 4px 8px;
+  color: red;
+}
+.container .checkBtn {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.container .checkBtn:hover {
+  background-color: black;
+  color: red;
+}
+.list {
+  font-size: 20px;
+}
